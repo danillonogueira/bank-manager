@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" 
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>thursday_ui</title>
+  </head>
+  
+  <body>
+    
+    <div class="container">
+      
+      <div class="container__menu">
+        
+        <div class="container__menu--logo">
+          
+          <div class="logo__circle">
+            <i class="logo__circle--pink  far   fa-circle"></i>
+          </div>
+          <span class="logo__text">spendstore</span>
+
+        </div>
+
+        <div class="container__options">
+
+          <label>
+            <input type="radio" name="menu" checked>
+            <div class="options">
+              <span>dashboard</span>
+            </div>          
+          </label>
+
+          <label>
+            <input type="radio" name="menu">
+            <div class="options">
+              <span>analytics</span>
+            </div>
+          </label>
+
+          <label>
+            <input type="radio" name="menu">
+            <div class="options">
+              <span>documentation</span>
+            </div>
+          </label>
+
+          <label>
+            <input type="radio" name="menu">
+            <div class="options">
+              <span>support</span>
+            </div>
+          </label>
+
+        </div>
+
+        <div class="container__menu--profile">
+          <div class="profile__square"></div>
+          <i class="profile__square--circle  fas  fa-circle"></i>
+          <img class="profile__img" src="./pic.png">
+          <i class="profile__dot  fas  fa-circle"></i>
+        </div>
+      
+      </div>
+      
+      <div class="container__nav">
+
+        <div class="container__nav--options">
+      
+          <label>
+            <input type="radio" name="nav" checked>
+            <div class="nav--options">
+              <span>all transfers</span>
+            </div>
+          </label>
+
+          <label>
+            <input type="radio" name="nav">
+            <div class="nav--options">
+              <span>bank accounts</span>
+            </div>
+          </label>
+
+          <label>
+            <input type="radio" name="nav">
+            <div class="nav--options">
+              <span>billing history</span>
+            </div>
+          </label>
+
+          <label>
+            <input type="radio" name="nav">
+            <div class="nav--options">
+              <span>transfer settings</span>
+            </div>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="container__section">
+
+        <div class="container__section--bank-profile">
+
+          <div class="bank-profile__right">
+            <i class="bank-profile__right--lightbulb  far  fa-lightbulb"></i>
+            <span>You can add any bank profile</span>
+          </div>
+          
+          <i class="bank-profile__right--window-close  fas   fa-times"></i>
+
+        </div>
+
+        <div class="container__section--transfers">
+
+          <div class="transfers__left">
+            <span class="transfers__left--title">transfers</span>
+            <span class="transfers__left--showing">
+              Showing 
+              <input class="transfers__left--number" 
+              type="number" value="20" 
+              max="200">
+              out of 340 transfers
+            </span>
+          </div>
+
+          <button class="transfers__left--btn">
+            <i class="icon"></i>
+            + add bank
+          </button>
+
+        </div>
+
+        <div class="container__section--table">  <!-- padding -->
+
+          <div class="table__top">
+            <span>date<i class="table__top--arrow  fas  fa-angle-double-up"></i></span>
+            <span>transfer bank<i class="table__top--arrow  fas  fa-angle-double-up"></i></span>
+            <span>account type<i class="table__top--arrow  fas  fa-angle-double-up"></i></span>
+            <span>owner<i class="table__top--arrow  fas  fa-angle-double-up"></i></span>
+            <span>payment<i class="table__top--arrow  fas  fa-angle-double-up"></i></span>
+          </div>
+
+          <div class="table__bottom">
+
+            <div class="table__bottom--lines">
+
+              <span>Oct 26, 2016</span>
+
+              <span>Frost Bank Wire Free 0091</span>
+
+              <span>Debit</span>
+
+              <span>Jeremy Conney</span>
+
+              <span>$ 189.00</span>
+
+            </div>
+
+            <div class="table__bottom--lines">
+
+              <span>Oct 17, 2016</span>
+
+              <span>Mally Austin bank a00x1</span>
+
+              <span>Debit</span>
+
+              <span>Jeremy Conney</span>
+
+              <span>$ 189.00</span>
+
+            </div>
+
+            <div class="table__bottom--lines">
+
+              <span>Oct 9, 2016</span>
+
+              <span>Bank of America D!NNd435 x1ss</span>
+
+              <span>Credit</span>
+
+              <span>Jeremy Conney</span>
+
+              <span>$ 270.00</span>
+
+            </div>
+
+            <div class="table__bottom--lines">
+
+              <span>Sep 28, 2016</span>
+
+              <span>Bank Trust 780 vnnhs</span>
+
+              <span>Debit</span>
+
+              <span>Sarah Brendy</span>
+
+              <span>$ 65.00</span>
+
+            </div>
+
+            <div class="table__bottom--lines">
+
+              <span>Sep 17, 2016</span>
+
+              <span>Mally Austin Bank a00x1</span>
+
+              <span>Credit</span>
+
+              <span>Metew Slike</span>
+
+              <span>$ 17.00</span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  
+  </body>
+
+</html>
